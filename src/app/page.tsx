@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowDownRight, ArrowRight, ArrowUpRight, Github, Linkedin, Mail, MoveUpRight } from "lucide-react";
+import { ArrowDownRight, ArrowRight, ArrowUpRight, Github, MoveUpRight } from "lucide-react";
 
 const projects = [
   { number: "01", name: "Sentinel", type: "Education · Assessment management", description: "A school assessment platform shaped around real institutional workflows, data relationships and access boundaries.", focus: ["Domain modelling", "Multi-tenant thinking", "Workflow design"], status: "Engineering case study", href: "https://github.com/poptramark-eng/sentinel" },
@@ -62,11 +62,11 @@ export default function Home() {
 
       <section className="about-section section-wrap" id="about">
         <div><span className="eyebrow">03 / A LITTLE ABOUT ME</span><h2>Engineering is<br/>how I make ideas<br/><em>work in the world.</em></h2></div>
-        <div className="about-copy"><p>I’m a software engineering student and builder interested in the space between understanding a problem and delivering a system people can rely on.</p><p>My work moves across product discovery, interface design, backend architecture and implementation. I enjoy making the moving parts fit together — and being honest about the trade-offs along the way.</p><div className="about-links"><Link href="https://github.com/poptramark-eng" target="_blank" rel="noreferrer">GitHub <ArrowUpRight size={15}/></Link><Link href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn <ArrowUpRight size={15}/></Link></div></div>
+        <div className="about-copy"><p>I’m a software engineering student and builder interested in the space between understanding a problem and delivering a system people can rely on.</p><p>My work moves across product discovery, interface design, backend architecture and implementation. I enjoy making the moving parts fit together — and being honest about the trade-offs along the way.</p><div className="about-links"><Link href="https://github.com/poptramark-eng" target="_blank" rel="noreferrer">GitHub <ArrowUpRight size={15}/></Link></div></div>
       </section>
 
       <footer className="footer" id="contact"><div className="section-wrap">
-        <span className="eyebrow">04 / HAVE SOMETHING IN MIND?</span><div className="footer-main"><h2>Let’s make<br/><em>something useful.</em></h2><Link className="contact-link" href="mailto:hello@poptraworld.digital">Start a conversation <MoveUpRight size={20}/></Link></div>
+        <span className="eyebrow">04 / HAVE SOMETHING IN MIND?</span><div className="footer-main"><h2>Let’s make<br/><em>something useful.</em></h2><Link className="contact-link" href="https://github.com/poptramark-eng">Connect on GitHub <MoveUpRight size={20}/></Link></div>
         <div className="footer-bottom"><span>© {new Date().getFullYear()} Mark Machukhu</span><span>THOUGHTFUL PRODUCTS. CLEAR SYSTEMS. PRACTICAL ENGINEERING.</span><Link href="#top">BACK TO TOP ↑</Link></div>
       </div></footer>
     </main>
