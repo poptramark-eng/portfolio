@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ArrowDownRight, ArrowRight, ArrowUpRight, Github, MoveUpRight } from "lucide-react";
 
 const projects = [
-  { number: "01", name: "Sentinel", type: "Education · Assessment management", description: "A school assessment platform shaped around real institutional workflows, data relationships and access boundaries.", focus: ["Domain modelling", "Multi-tenant thinking", "Workflow design"], status: "Engineering case study", href: "https://github.com/poptramark-eng/sentinel" },
+  { number: "01", name: "Sentinel", type: "Education · Assessment management", description: "A school assessment platform shaped around real institutional workflows, data relationships and access boundaries.", focus: ["Domain modelling", "Multi-tenant thinking", "Workflow design"], status: "Engineering case study", href: "/work/sentinel" },
   { number: "02", name: "RefillRadar", type: "Energy · Product discovery", description: "Exploring how households can make more informed LPG refill decisions through clearer local information and service discovery.", focus: ["Problem discovery", "Value proposition", "Validation planning"], status: "Product concept", href: "https://github.com/poptramark-eng/lpg" },
   { number: "03", name: "Navakholo", type: "Education · Information systems", description: "An earlier exploration of school information and assessment workflows, informing the evolution of a more structured platform.", focus: ["Requirements", "Data design", "Application workflows"], status: "Project archive", href: "https://github.com/poptramark-eng/Navakholo" }
 ];
