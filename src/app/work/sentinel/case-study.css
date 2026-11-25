@@ -1,0 +1,32 @@
+
+.case-page .site-header nav a:first-child{display:flex;align-items:center;gap:7px}
+.case-hero{padding-top:105px;padding-bottom:65px}
+.case-overline{font-size:10px;letter-spacing:1.5px;color:#92968c;margin:90px 0 15px}
+.case-hero h1{font-size:clamp(78px,12vw,150px);line-height:.9}
+.case-period{color:#7b9d8a}
+.case-lede{font-family:var(--serif);font-size:clamp(23px,3vw,36px);line-height:1.35;max-width:760px;color:#62695f;margin:35px 0 70px}
+.case-facts{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;border-top:1px solid var(--line);padding-top:20px}
+.case-facts div{display:flex;flex-direction:column;gap:10px}
+.case-facts span,.case-label{font-size:9px;letter-spacing:1.4px;color:#85897f;font-weight:700}
+.case-facts strong{font-size:12px;font-weight:500}
+.case-body{padding-top:35px;padding-bottom:120px}
+.case-section{display:grid;grid-template-columns:.55fr 1.45fr;gap:8%;padding:55px 0;border-top:1px solid var(--line)}
+.case-section h2{font-size:clamp(34px,4vw,52px);line-height:1.08;max-width:650px;margin-bottom:25px}
+.case-section p{font-size:14px;line-height:1.9;color:#686d64;max-width:720px;margin:0 0 17px}
+.case-label{padding-top:8px}
+.architecture-list{border-top:1px solid var(--line);margin:35px 0 25px}
+.architecture-row{display:grid;grid-template-columns:.55fr 1.45fr;gap:20px;padding:19px 0;border-bottom:1px solid var(--line)}
+.architecture-row>span{font-size:11px;color:#777d72}
+.architecture-row strong{font-size:13px;font-weight:600}
+.architecture-row p{font-size:12px;margin:7px 0 0}
+.case-footnote{font-size:11px!important;color:#898d84!important}
+.decision-list{border-top:1px solid var(--line);margin-top:35px}
+.decision-list article{display:grid;grid-template-columns:45px 1fr;gap:15px;padding:20px 0;border-bottom:1px solid var(--line)}
+.decision-list article>span{font-size:10px;color:#8b9086}
+.decision-list h3{font-size:16px;font-weight:500;margin:0 0 7px}
+.decision-list p{font-size:12px;margin:0}
+.status-panel{display:flex;justify-content:space-between;gap:20px;align-items:center;background:#eeeee8;padding:20px 22px;margin-top:30px}
+.status-panel strong{font-size:12px;font-weight:600}
+.status-panel span{font-size:11px;color:#687064}
+.case-repo{margin-top:20px}
+@media(max-width:700px){.case-hero{padding-top:75px}.case-overline{margin-top:65px}.case-facts{grid-template-columns:repeat(2,1fr);row-gap:25px}.case-section{grid-template-columns:1fr;gap:20px;padding:38px 0}.case-section h2{font-size:38px}.case-body{padding-bottom:80px}.architecture-row{grid-template-columns:1fr;gap:8px}.status-panel{align-items:flex-start;flex-direction:column}}
